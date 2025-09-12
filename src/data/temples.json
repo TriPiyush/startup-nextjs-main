@@ -1,0 +1,548 @@
+[
+  {
+    "id": 1,
+    "name": "Kireet",
+    "coords": [23.216, 88.350],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 2,
+    "name": "Vrindavan",
+    "coords": [27.504748, 77.669754],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 3,
+    "name": "Karaveera",
+    "coords": [16.829, 74.563],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 4,
+    "name": "Jwala Devi",
+    "coords": [31.026, 75.573],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 5,
+    "name": "Jayanti Kali",
+    "coords": [25.529, 91.573],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 6,
+    "name": "Asamai Devi",
+    "coords": [34.533, 69.183],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 7,
+    "name": "Juranpur Kali",
+    "coords": [23.234, 88.369],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 8,
+    "name": "Ambika Bhawani",
+    "coords": [25.604, 85.077],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 9,
+    "name": "Mahamayi",
+    "coords": [33.417, 75.383],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 10,
+    "name": "Phullara",
+    "coords": [23.617, 87.717],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 11,
+    "name": "Bahula",
+    "coords": [23.250, 87.717],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 12,
+    "name": "Mahishmardini",
+    "coords": [23.650, 87.717],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 13,
+    "name": "Chandika Sthan",
+    "coords": [25.604, 85.077],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 14,
+    "name": "Maa Jayanti",
+    "coords": [25.529, 91.573],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 15,
+    "name": "Shrinkala Devi",
+    "coords": [23.234, 88.369],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 16,
+    "name": "Vishalakshi",
+    "coords": [25.317, 82.973],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 17,
+    "name": "Srisailam",
+    "coords": [16.083, 78.883],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 18,
+    "name": "Dakshineswar",
+    "coords": [22.637, 88.369],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 19,
+    "name": "Kamakhya",
+    "coords": [26.166, 91.708],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 20,
+    "name": "Vaishno Devi",
+    "coords": [33.033, 75.317],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 21,
+    "name": "Ambaji",
+    "coords": [24.248, 72.708],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 22,
+    "name": "Kalighat",
+    "coords": [22.540, 88.349],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 23,
+    "name": "Bajreshwari",
+    "coords": [32.019, 75.582],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 24,
+    "name": "Maa Tara",
+    "coords": [23.216, 88.350],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 25,
+    "name": "Maa Kamakhya",
+    "coords": [26.166, 91.708],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 26,
+    "name": "Maa Sharda",
+    "coords": [33.417, 75.383],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 27,
+    "name": "Maa Bhairavi",
+    "coords": [25.529, 91.573],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 28,
+    "name": "Maa Kali",
+    "coords": [23.234, 88.369],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 29,
+    "name": "Maa Durga",
+    "coords": [25.604, 85.077],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 30,
+    "name": "Maa Lakshmi",
+    "coords": [25.317, 82.973],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 31,
+    "name": "Maa Saraswati",
+    "coords": [16.083, 78.883],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 32,
+    "name": "Maa Ganga",
+    "coords": [22.637, 88.369],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 33,
+    "name": "Maa Yamuna",
+    "coords": [33.033, 75.317],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 34,
+    "name": "Maa Saraswati",
+    "coords": [24.248, 72.708],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 35,
+    "name": "Maa Parvati",
+    "coords": [22.540, 88.349],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 36,
+    "name": "Maa Sati",
+    "coords": [32.019, 75.582],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 37,
+    "name": "Maa Durga",
+    "coords": [23.216, 88.350],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 38,
+    "name": "Maa Kali",
+    "coords": [26.166, 91.708],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 39,
+    "name": "Maa Saraswati",
+    "coords": [33.417, 75.383],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 40,
+    "name": "Maa Ganga",
+    "coords": [25.529, 91.573],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 41,
+    "name": "Maa Yamuna",
+    "coords": [23.234, 88.369],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 42,
+    "name": "Maa Saraswati",
+    "coords": [25.604, 85.077],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 43,
+    "name": "Maa Parvati",
+    "coords": [25.317, 82.973],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 44,
+    "name": "Maa Sati",
+    "coords": [16.083, 78.883],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 45,
+    "name": "Maa Durga",
+    "coords": [22.637, 88.369],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 46,
+    "name": "Maa Kali",
+    "coords": [33.033, 75.317],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 47,
+    "name": "Maa Saraswati",
+    "coords": [24.248, 72.708],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 48,
+    "name": "Maa Parvati",
+    "coords": [22.540, 88.349],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 49,
+    "name": "Maa Sati",
+    "coords": [32.019, 75.582],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 50,
+    "name": "Maa Durga",
+    "coords": [23.216, 88.350],
+    "category": "shaktipeeth",
+    "visited": false
+  },
+  {
+    "id": 51,
+    "name": "Maa Kali",
+    "coords": [26.166, 91.708],
+    "category": "shaktipeeth",
+    "visited": true
+  },
+  {
+    "id": 52,
+    "name": "Somnath",
+    "coords": [20.8984, 70.4636],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 53,
+    "name": "Mallikarjuna",
+    "coords": [16.0704, 78.8772],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 54,
+    "name": "Mahakaleshwar",
+    "coords": [23.1815, 75.7789],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 55,
+    "name": "Omkareshwar",
+    "coords": [22.2442, 76.1465],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 56,
+    "name": "Kedarnath",
+    "coords": [30.7326, 79.0674],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 57,
+    "name": "Bhimashankar",
+    "coords": [18.0506, 73.6503],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 58,
+    "name": "Kashi Vishwanath",
+    "coords": [25.2838, 82.9739],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 59,
+    "name": "Trimbakeshwar",
+    "coords": [19.8783, 73.5775],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 60,
+    "name": "Nageshwar",
+    "coords": [22.2464, 69.0668],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 61,
+    "name": "Vaidyanath",
+    "coords": [24.4777, 86.4892],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 62,
+    "name": "Ramanathaswamy",
+    "coords": [9.2884, 79.3140],
+    "category": "jyotirlinga",
+    "visited": true
+  },
+  {
+    "id": 63,
+    "name": "Grishneshwar",
+    "coords": [20.0140, 74.0711],
+    "category": "jyotirlinga",
+    "visited": false
+  },
+  {
+    "id": 64,
+    "name": "Dwarkadhish Temple",
+    "coords": [22.2405, 68.9778],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 65,
+    "name": "Banke Bihari Temple",
+    "coords": [27.5789, 77.6731],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 66,
+    "name": "Prem Mandir",
+    "coords": [27.5861, 77.6725],
+    "category": "krishna",
+    "visited": true
+  },
+  {
+    "id": 67,
+    "name": "ISKCON Temple",
+    "coords": [28.6448, 77.2167],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 68,
+    "name": "Udupi Sri Krishna Matha",
+    "coords": [13.3400, 74.7430],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 69,
+    "name": "Janmashtami Mandir",
+    "coords": [27.6000, 77.6700],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 70,
+    "name": "Govind Dev Ji Temple",
+    "coords": [26.9194, 75.7881],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 71,
+    "name": "Nathdwara Temple",
+    "coords": [24.8775, 73.7225],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 72,
+    "name": "Guruvayur Temple",
+    "coords": [10.5950, 76.0385],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 73,
+    "name": "Shri Radha Rani Temple",
+    "coords": [27.5917, 77.3000],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 74,
+    "name": "Champaran Temple",
+    "coords": [21.9333, 81.6333],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 75,
+    "name": "Thiruvarppu Sri Krishna Temple",
+    "coords": [9.5986, 76.6356],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 76,
+    "name": "Venugopalaswamy Temple",
+    "coords": [13.3692, 79.9883],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 77,
+    "name": "Radha Madan Mohan Temple",
+    "coords": [27.5894, 77.6722],
+    "category": "krishna",
+    "visited": false
+  },
+  {
+    "id": 78,
+    "name": "Shri Vitthal Rukmini Mandir",
+    "coords": [17.6711, 75.2153],
+    "category": "krishna",
+    "visited": false
+  }
+]
