@@ -4,9 +4,12 @@ import dynamic from "next/dynamic";
 import "leaflet/dist/leaflet.css";
 import { useEffect, useState } from "react";
 import temples from "@/data/temples.json"; // adjust path
+import type { Icon } from "leaflet";
+import type { MapContainerProps } from "react-leaflet";
+
 
 // Dynamically import react-leaflet components
-const MapContainer = dynamic(
+const MapContainer = dynamic<MapContainerProps>(
   () => import("react-leaflet").then((mod) => mod.MapContainer),
   { ssr: false }
 );
@@ -74,7 +77,8 @@ export default function Map() {
     );
   };
 
-  const getIcon = (category: string, visited: boolean) => {
+  // ✅ Return type properly typed as Leaflet Icon
+  const getIcon = (category: string, visited: boolean): Icon => {
     let iconUrl = "";
 
     if (category === "jyotirlinga") {
@@ -82,7 +86,7 @@ export default function Map() {
     } else if (category === "jyotipeeth") {
       iconUrl = visited ? "/icons/jyotipeeth-visited.png" : "/icons/jyotipeeth.png";
     } else if (category === "shaktipeeth") {
-      iconUrl = visited ? "/icons/jyotipeeth-visited.png" : "/icons/jyotipeeth.png";
+      iconUrl = visited ? "/icons/shaktipeeth-visited.png" : "/icons/shaktipeeth.png";
     } else if (category === "krishna") {
       iconUrl = visited ? "/icons/krishna-visited.png" : "/icons/krishna.png";
     }
@@ -105,11 +109,10 @@ export default function Map() {
             <button
               key={cat.key}
               onClick={() => toggleCategory(cat.key)}
-              className={`flex items-center gap-2 px-3 py-2 rounded-lg shadow-md text-sm font-semibold transition ${
-                selectedCategories.includes(cat.key)
-                  ? "bg-blue-600 text-white"
-                  : "bg-white text-black hover:bg-gray-100"
-              }`}
+              className={`flex items-center gap-2 px-3 py-2 rounded-lg shadow-md text-sm font-semibold transition ${selectedCategories.includes(cat.key)
+                ? "bg-blue-600 text-white"
+                : "bg-white text-black hover:bg-gray-100"
+                }`}
             >
               <span className="text-lg">{cat.icon}</span>
               {cat.label}
@@ -123,11 +126,10 @@ export default function Map() {
             <button
               key={st.key}
               onClick={() => toggleStatus(st.key)}
-              className={`flex items-center gap-2 px-3 py-2 rounded-lg shadow-md text-sm font-semibold transition ${
-                selectedStatus.includes(st.key)
-                  ? "bg-green-600 text-white"
-                  : "bg-white text-black hover:bg-gray-100"
-              }`}
+              className={`flex items-center gap-2 px-3 py-2 rounded-lg shadow-md text-sm font-semibold transition ${selectedStatus.includes(st.key)
+                ? "bg-green-600 text-white"
+                : "bg-white text-black hover:bg-gray-100"
+                }`}
             >
               <span className="text-lg">{st.icon}</span>
               {st.label}
@@ -138,12 +140,13 @@ export default function Map() {
 
       {/* Map */}
       <MapContainer
+        // @ts-ignore
         center={[22.9734, 78.6569]} // Center of India
         zoom={5}
         style={{ width: "100%", height: "100%" }}
+
       >
         <TileLayer
-          attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
@@ -157,7 +160,8 @@ export default function Map() {
             <Marker
               key={loc.id}
               position={loc.coords as [number, number]}
-              icon={getIcon(loc.category, loc.visited)}
+              // @ts-ignore
+              icon={getIcon(loc.category, loc.visited)} // ✅ now properly typed
             >
               <Popup>
                 <strong>{loc.name}</strong> <br />

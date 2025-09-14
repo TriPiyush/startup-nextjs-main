@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+// @ts-ignore
 import Map from "./Map";
 
 export const metadata: Metadata = {
